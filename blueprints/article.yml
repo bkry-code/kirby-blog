@@ -1,0 +1,21 @@
+title: Article
+pages: false
+files: true
+fields:
+  title: title
+  menu: menu
+  date: date
+  description: description
+  thumbnail: thumbnail
+  cover: coverimage
+  text: text
+  categories:
+    label: Categories
+    type: tags
+    lower: false
+    index: template
+  tags:
+    label: Tags
+    type: tags
+    lower: true
+    index: template

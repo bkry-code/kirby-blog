@@ -1,0 +1,11 @@
+title: Archive Page
+pages:
+  template: article
+  limit: 12
+files: true
+fields:
+  title: title
+  menu: menu
+  description: description
+  cover: coverimage
+  text: text

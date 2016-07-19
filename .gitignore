@@ -1,0 +1,19 @@
+# gitignore
+
+# Kirby2 ------------------------- {{{1
+
+# Exclude account information
+site/accounts/*
+!site/accounts/index.html
+assets/avatars/*
+!assets/avatars/.gitkeep
+
+# Exclude thumbnails
+thumbs/*
+!thumbs/index.html
+
+# Exclude cache
+site/cache/*
+!site/cache/index.html
+
+# vim:foldmethod=marker:foldlevel=2
